@@ -1,3 +1,5 @@
 n = int(input('Введите число: '))
+dic = {}
 for i in range(1,n+1):
-    print(3*i+1, end=" ")
+    dic[i] = 3*i+1
+print(dic)
